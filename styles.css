@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    min-height: 100vh; 
+    background-color: #1f1d2a;
+    color: white;
+  
+    display: grid;
+  
+    place-items: center;
+}
+
+.cabecalho {
+    padding-top: 15%;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.display {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+
+    color: black;
+  
+    display: grid;
+  
+    place-items: center;
+}
+
+.interacao {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.btnTentar {
+    height: 50px;
+    width: 48%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(69, 233, 132);
+    font-size: x-large;
+}
+
+.leitor {
+    height: 50px;
+    width: 48%; 
+    margin: 0;
+    padding: 0;
+    margin-right: 3.2%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.mensagem {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(168, 45, 45);
+    margin-bottom: 10%;
+    padding-top: 20px;
+    text-align: center;
+}
